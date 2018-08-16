@@ -19,7 +19,9 @@ transpiles to
 const Header = styled.h1.withConfig({ displayName: 'Header' })`...`;
 ```
 
-✨  ✨
+✨ [React Inspector](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) ✨
+
+[![Screenshot in Chrome React Inspector](https://imgur.com/oQzmksl.png "Screenshot in Chrome React Inspector")](https://imgur.com/cK6LE2j.png)
 
 ## Installation
 
@@ -32,14 +34,15 @@ yarn add react-app-rewire-styled-components-typescript
 
 ## Usage
 
-In the `config-overrides.js` you created for `react-app-rewired` add the following:
+In the `config-overrides.js` you created for [`react-app-rewired`](https://github.com/timarney/react-app-rewired) add the following:
 
-> Note that `rewiredStyledComponents` is required before this plugin.
+> ⚠️ `rewiredStyledComponents` is required before this plugin.
 
 ```JS
 // config-overides.js
 
 const { compose } = require("react-app-rewired");
+const rewireStyledComponents = require("react-app-rewire-styled-components");
 const rewireStyledComponentsTypescriptPlugin = require('react-app-rewire-styled-components-typescript');
 
 // react-app-rewired v1.3.4+ (right-to-left)
