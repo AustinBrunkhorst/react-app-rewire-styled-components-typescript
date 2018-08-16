@@ -1,4 +1,7 @@
-# `react-app-rewire-styled-components-typescript`
+# `React CRA Styled Components Debugging - TypeScript`
+
+[![npm version](https://img.shields.io/npm/v/react-app-rewire-styled-components-typescript.svg)](https://www.npmjs.com/package/react-app-rewire-styled-components-typescript)
+[![npm downloads](https://img.shields.io/npm/dt/react-app-rewire-styled-components-typescript.svg)](https://www.npmjs.com/package/react-app-rewire-styled-components-typescript)
 
 Add the [`typescript-plugin-styled-components`](https://github.com/Igorbek/typescript-plugin-styled-components) to your `create-react-app` app via [`react-app-rewired`](https://github.com/timarney/react-app-rewired) and [`react-scripts-ts`](https://github.com/wmonk/create-react-app-typescript).
 
