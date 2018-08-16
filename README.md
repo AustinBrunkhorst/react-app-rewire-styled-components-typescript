@@ -1,11 +1,13 @@
-# `React CRA Styled Components Debugging - TypeScript`
+# `Styled Components Debugging - TypeScript`
 
 [![npm version](https://img.shields.io/npm/v/react-app-rewire-styled-components-typescript.svg)](https://www.npmjs.com/package/react-app-rewire-styled-components-typescript)
 [![npm downloads](https://img.shields.io/npm/dt/react-app-rewire-styled-components-typescript.svg)](https://www.npmjs.com/package/react-app-rewire-styled-components-typescript)
 
-Add the [`typescript-plugin-styled-components`](https://github.com/Igorbek/typescript-plugin-styled-components) to your `create-react-app` app via [`react-app-rewired`](https://github.com/timarney/react-app-rewired) and [`react-scripts-ts`](https://github.com/wmonk/create-react-app-typescript).
+Debug your TypeScript styled component apps.
 
-## What does it do?
+## What does this package do?
+
+Adds a [TypeScript transformer](https://github.com/Igorbek/typescript-plugin-styled-components) to generate debug information for [rewired](https://github.com/wmonk/create-react-app-typescript) [create react apps](https://github.com/wmonk/create-react-app-typescript).
 
 ```JS
 const Header = styled.h1`...`;
@@ -17,14 +19,14 @@ transpiles to
 const Header = styled.h1.withConfig({ displayName: 'Header' })`...`;
 ```
 
-This generates class names that are recognizable and easier to debug.
+✨  ✨
 
 ## Installation
 
 ```sh
 npm install --save react-app-rewire-styled-components-typescript
-
-# alternatively if you have yarn installed
+```
+```sh
 yarn add react-app-rewire-styled-components-typescript
 ```
 
